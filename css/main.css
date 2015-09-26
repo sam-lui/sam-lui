@@ -1,0 +1,91 @@
+#bg {
+    position: fixed;
+    top: -50%;
+    left: -50%;
+    width: 200%;
+    height: 200%;
+    z-index: -1;
+}
+
+#bg img {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    margin: auto;
+    min-width: 50%;
+    min-height: 50%;
+}
+
+a {
+    color: crimson;
+}
+
+
+p {
+    position: fixed;
+}
+
+#stem {
+    left: 40%;
+    top: 40%;
+    color: darkmagenta;
+    padding: 10px;
+}
+
+#emotion{
+    left: 60%;
+    top: 20%;
+    color: darkmagenta;
+    padding: 10px;
+}
+
+#alterego {
+    left: 55%;
+    top: 70%;
+    color: darkmagenta;
+    padding: 10px;
+}
+
+#desperation {
+    left: 70%;
+    top: 20%;
+    color: darkmagenta;
+    padding: 10px;
+}
+
+#jealousy {
+    left: 65%;
+    top: 45%;
+    color: darkmagenta;
+    padding: 10px;
+}
+    
+
+.border {
+    border-style: solid;
+    border-color: black;
+}
+
+#options {
+    background: red;
+    width: auto;
+}
+
+#options ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    line-height: 1;
+    display: block;
+    zoom: 1;
+}
+
+#options ul li {
+    display: inline-block;
+    padding: 0;
+    margin: 0;
+}
+}
+    
