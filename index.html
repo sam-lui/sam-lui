@@ -7,6 +7,7 @@
   <meta name="Generator" content="Cocoa HTML Writer">
   <meta name="CocoaVersion" content="1187.4">
   <link rel="stylesheet" href="css/main.css">
+  <link href="css/weather.css" rel="stylesheet">
 </head>
 
 <body>
@@ -14,24 +15,38 @@
     <header>
     <div id="options">
         <ul>
-        <li><a href="#"><span>manifesto</span></a></li>
-            <li><a href="#"><span>second item</span></a></li>
+        <li><a href="page/manifesto.html"><span>manifesto</span></a></li>
+            <li><button onclick="togglePhotos()">Photos</button></li>
+            <li><button onclick="toggleVideos()">Videos</button></li>
             </ul>
     </header>
     
     <p class="border" id="stem">
-        <a href="www.mermanhunters.com">brainstem</a></p>
+        <a href="www.mermanhunters.com">center</a></p>
     <p class="border" id="emotion">
-    <a href="page/yayas.html">emotions</a></p>
+    <a href="page/yayas.html">raw feelings</a></p>
     <p class="border" id="alterego">
     alter egos</p>
-    <p class="border" id="desperation">
+    <p class="border" id="desperation" name="video">
     desperate</p>
-    <p class= "border" id="jealousy">
+    <p class= "border" id="jealousy" name="video">
     jealousy</p>
-    <div id="bg">
+    <p class= "border" id="selfish" name="photo">
+    selfish</p>
+    <p class= "border" id="empty" name="photo">
+    empty</p>
+    <p class= "border" id="love">
+    love</p>
+    <p class= "border" id="holdon">
+    holding on</p>
+    <div id="bg" class="weather rain">
         <img src="img/pixelbrain.jpg">
     </div>
+        
+            <script src="js/main.js"></script>
+        
 </body>
+    
+
     
 </html>
